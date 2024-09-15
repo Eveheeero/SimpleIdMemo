@@ -1,5 +1,5 @@
 [package]
-name = "memo"
+name = "simple_id_memo"
 version = "0.1.0"
 edition = "2021"
 
