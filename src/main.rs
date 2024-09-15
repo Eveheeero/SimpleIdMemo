@@ -122,7 +122,7 @@ impl eframe::App for Memo {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         let mut delete_content = None;
         egui::CentralPanel::default().show(ctx, |ui| {
-            ui.heading("Memo");
+            ui.heading("Simple Id Memo");
             ui.separator();
             ui.horizontal(|ui| {
                 ui.add_sized(
